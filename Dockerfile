@@ -6,6 +6,7 @@ RUN apt-get update \
     && apt-get -y install --no-install-recommends \
         python=2.7.* \
         python-pip \
+        python-setuptools \
 
     && pip install https://s3.amazonaws.com/cloudformation-examples/aws-cfn-bootstrap-latest.tar.gz \
 
